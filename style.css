@@ -1,0 +1,75 @@
+body {
+    font-family: monospace;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+p {
+    margin: 1.5px;
+    border: 0.5px solid rgb(210, 223, 240);
+}
+
+.address-section {
+    font-size: x-small;
+    display: flex;
+    flex-direction: column-reverse;
+    border: 2px solid #5a6fce;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 200px;
+    max-width: 800px; /* Maximum width for address sections */
+    margin: auto; /* Center the address sections */
+}
+
+.transaction-container {
+    display: flex; /* Hide transactions initially */
+    margin-bottom:20px;
+}
+
+.wallet-header {
+    cursor: pointer; /* Change cursor to indicate clickability */
+}
+
+.transaction {
+    display: flex;
+    border-left: 3px solid #276e9e;
+    background-color: #eff4f7;
+}
+
+.timestamp {
+    display: block;
+    width: 10%;
+    margin-left: 0px;
+    padding: 0 1%;
+    color: #888;
+    font-size: 0.9em;
+}
+
+.fromAddr, .toAddr {
+    display: block;
+    font-weight: bold;
+    padding-right: 1%;
+}
+
+.fromAddr {
+    color: rgb(88, 127, 245);
+}
+
+.toAddr {
+    color: rgb(59, 148, 59);
+}
+
+.conValue, .tkName {
+    display: block;
+    width: 5%;
+}
+
+.conValue {
+    color: #3498db;
+}
+
+.tkName {
+    font-style: italic;
+}
